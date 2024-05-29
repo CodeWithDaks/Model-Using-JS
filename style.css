@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* border: 12px solid red; */
+    height: 100vh;
+    
+}
+
+.main{
+    /* border: 5px solid purple; */
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.openModalButton{
+     padding: 0.9rem;
+     border: none;
+     background-color: rgb(43,74,86);
+     color: white;
+     cursor: pointer;
+     border-radius: 0.5rem;
+     font-size: 1.2rem;
+}
+
+.modal{
+    background-color:rgba(0,0,0,0.598);
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    display: grid;
+    place-items: center;
+}
+
+.modal_content{
+    background-color:#fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 1px solid red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.3rem;
+    position: relative;
+}
+
+.modal_button{
+    text-align: center;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+
+}
+
+
+
+.close{
+    display: none;
+}
+
+.close_modal{
+    position: absolute;
+    top:5px;
+    right:5px;
+    border: none; 
+    background-color:transparent;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+
